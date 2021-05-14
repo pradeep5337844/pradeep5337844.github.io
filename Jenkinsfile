@@ -16,7 +16,7 @@ pipeline {
     stage('Docker Build') {
       agent any
       steps {
-        sh 'docker build -t pradeep5337844.github.io:latest .'
+        sh 'sudo docker build -t pradeep5337844.github.io:latest .'
       }
     }
   }
