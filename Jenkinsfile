@@ -10,13 +10,13 @@ pipeline {
         }
       }
       steps {
-        sh 'sudo mvn clean install'
+        sh 'mvn clean install'
       }
     }
     stage('Docker Build') {
       agent any
       steps {
-        sh 'sudo docker build -t pradeep5337844.github.io:latest .'
+        sh 'docker build -t pradeep5337844.github.io:latest .'
       }
     }
   }
