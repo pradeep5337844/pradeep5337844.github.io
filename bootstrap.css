@@ -1,3 +1,91 @@
+/* === Custom Resume Styles === */
+.resume-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(66,133,244,0.08);
+  margin-bottom: 2rem;
+  padding: 2rem 2.5rem;
+}
+.resume-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.resume-header img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 4px solid #4285f4;
+}
+.resume-title {
+  color: #202124;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.resume-contact {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+.resume-section-title {
+  color: #4285f4;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.resume-list {
+  margin-bottom: 0.5rem;
+}
+.resume-list li {
+  margin-bottom: 0.3rem;
+}
+.resume-company {
+  font-weight: 600;
+  color: #202124;
+}
+.resume-role {
+  font-weight: 500;
+  color: #4285f4;
+}
+.resume-date {
+  font-size: 0.95rem;
+  color: #888;
+}
+.resume-footer {
+  text-align: center;
+  color: #fff;
+  background: #343a40;
+  padding: 1.5rem 0 0.5rem 0;
+  border-radius: 0 0 12px 12px;
+  margin-top: 2rem;
+}
+.resume-skills-list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .resume-section {
+    padding: 1rem 0.5rem;
+  }
+  .resume-header img {
+    width: 100px;
+    height: 100px;
+  }
+  .resume-title {
+    font-size: 1.5rem;
+  }
+  .resume-section-title {
+    font-size: 1.1rem;
+  }
+  .resume-skills-list {
+    columns: 1;
+  }
+}
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
